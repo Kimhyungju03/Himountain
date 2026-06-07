@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HiMountain</string>
+
+    <string name="today_mountain">Today\'s Mountain</string>
+
+    <string name="register_mountain">Register Today\'s Mountain</string>
+
+    <string name="reset_mountain">Reset</string>
+
+    <string name="open_map">Open Map</string>
+
+    <string name="weather_forecast">7-Day Weather Forecast</string>
+
+    <string name="review">Review</string>
+
+    <string name="submit_review">Submit Review</string>
+
+</resources>

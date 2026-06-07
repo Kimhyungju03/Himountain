@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/edtHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="키(cm)" />
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="몸무게(kg)" />
+
+    <RadioGroup
+        android:id="@+id/rgLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbBeginner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초보" />
+
+        <RadioButton
+            android:id="@+id/rbIntermediate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중급" />
+
+        <RadioButton
+            android:id="@+id/rbAdvanced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고급" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRecommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI 추천 받기"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>

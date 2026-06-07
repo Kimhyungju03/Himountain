@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">안녕산</string>
+
+    <string name="today_mountain">오늘 갈 산</string>
+
+    <string name="register_mountain">오늘 갈 산 등록</string>
+
+    <string name="reset_mountain">초기화</string>
+
+    <string name="open_map">지도 열기</string>
+
+    <string name="weather_forecast">7일 날씨 예보</string>
+
+    <string name="review">리뷰</string>
+
+    <string name="submit_review">리뷰 등록</string>
+
+</resources>

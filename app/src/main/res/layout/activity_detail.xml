@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtMountainName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="산 이름"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="10dp"
+            android:text="날씨 불러오는 중..." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐ 평점 남기기"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"/>
+
+        <EditText
+            android:id="@+id/edtReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="리뷰를 입력하세요"
+            android:inputType="textMultiLine"
+            android:minLines="3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnReview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="등록"/>
+
+            <Button
+                android:id="@+id/btnEditReview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="수정"/>
+
+            <Button
+                android:id="@+id/btnDeleteReview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="삭제"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtReviewList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnTodayMountain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘 갈 산 등록"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnResetMountain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘 갈 산 초기화"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗺 지도에서 보기"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/imgCourse"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+</ScrollView>
